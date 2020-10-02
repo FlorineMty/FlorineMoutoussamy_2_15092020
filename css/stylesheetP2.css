@@ -126,24 +126,33 @@ h2
 }
 #recherche
 {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
 	margin-bottom: 20px;
 }
-#recherche > .iconePosition
+.rechercheVille
+{
+	display: flex;
+	flex-direction: row;
+}
+.iconePosition
 {
 	background-color: #F2F2F2;
-	padding: 10px;
+	padding: 16px 20px;
 	border-radius: 10px 0px 0px 10px;
-	text-align: center;
-	display: flex;
+	box-sizing: border-box;
+	margin-right: 0;
+	width: 50px;
+
 }
 #ville
 {
-	border: 1px#F2F2F2 solid;
-	padding: 10px 30px 10px 10px;
-	display: flex;
+	border-top: 1px#F2F2F2 solid;
+	border-bottom: 1px#F2F2F2 solid;
+	border-left: none;
+	border-right: none;
+	padding: 16px 20px;
+	font-size: 18px;
+	box-sizing: border-box;
+	margin: 0;
 }
 .iconeRecherche
 {
@@ -164,13 +173,13 @@ h2
 	background-color: #0065FC;
 	color: white;
 	border-radius: 0px 10px 10px 0px;
-	padding: 10px;
-	font-size: 15px;
+	padding: 16px 20px;
+	font-size: 18px;
 	font-weight: bold;
 	border: none;
 	cursor: pointer;
 	margin: 0;
-	display: block;
+	box-sizing: border-box;
 }
 #filtres
 {
