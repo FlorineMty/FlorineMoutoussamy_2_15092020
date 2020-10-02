@@ -19,7 +19,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3px;
+	padding-bottom: 3px;
     background-color: white;
     position: fixed;
     width: 100%;
@@ -27,6 +27,11 @@ header
 	top: 0px;
 	z-index: 50;
 
+}
+main
+{
+	margin: auto;
+	padding: 0 20px;
 }
 #logo
 {
@@ -55,6 +60,10 @@ header
 	color: #0065FC;
 	border-top: 3px solid #0065FC;
 	padding-top: 15px;
+}
+#inscription
+{
+	padding-right: 10px;
 }
 #inscription a
 {  
@@ -122,7 +131,7 @@ h2
 {
 	display: flex;
 	flex-direction: row;
-	margin: 0px 0 30px 0;
+	margin-bottom: 30px;
 }
 #recherche
 {
@@ -355,6 +364,8 @@ input[type='radio']
 {
 	text-decoration: none;
 	color: black;
+	width: 100%;
+	margin-bottom: 50px;
 }
 
 .imagebloc2
@@ -364,6 +375,8 @@ input[type='radio']
 	flex-wrap: wrap;
 	box-shadow: 0px 10px 10px #C0C0C0;
 	border-radius: 20px;
+	width: 316px;
+	justify-content: center;
 }
 
 .imagebloc2 > img
@@ -381,7 +394,7 @@ input[type='radio']
 	background-color: white;
 	text-align: left;
 	height: 120px;
-	width: 200px;
+	width: 170px;
 	border: 4px white solid;
 }
 .legendeDroite > .legendebloc2
@@ -519,6 +532,11 @@ p span
 		width: 100%;
 		position: initial;
 	}
+	main
+	{
+		margin: auto;
+		padding: 0;
+	}
 	#logo
 	{
 		padding-left: 20px;
@@ -528,7 +546,7 @@ p span
 		margin-top: 10%;
 		margin-left: 20px;
 	}
-	#recherche
+	.rechercheVille
 	{
 		justify-content: center;
 	}
@@ -589,13 +607,13 @@ p span
 	{
 		margin: 0;
 	}
+}
 @media screen and (max-device-width: 759px)
 {
 	header
 	{
 		width: 100%;
 		flex-direction: column;
-		position: initial;
 	}
 	#barremenu a:hover 
 	{  
@@ -615,10 +633,11 @@ p span
 	h1
 	{
 		font-size: 20px;
-		padding-left: 10px;
 	}
-	#recherche
+	#recherche form
 	{
+		display: flex;
+		flex-direction: row;
 		justify-content: center;
 	}
 	#boutonrecherche
@@ -630,7 +649,7 @@ p span
 		background-color: #0065FC;
 		color: white;
 		border-radius: 10px;
-		padding: 10px;
+		padding: 16px 20px;
 		font-family:'Raleway-Medium', sans-serif;
 		font-size: 15px;
 		font-weight: bold;
@@ -640,9 +659,7 @@ p span
 	}
 	#filtres
 	{
-		display: flex;
 		flex-direction: column;
-		font-weight: bold;
 		margin-top: 30px;
 	}
 	.blocFiltres
@@ -657,14 +674,8 @@ p span
 		flex-direction: column-reverse;
 		width: 100%;
 	}
-	.bloc2
-	{
-		width: auto;
-		border-radius: 0;
-	}
 	.bloc1
 	{
-		width: auto;
 		background-color: white;
 	}
 	.imagebloc2
