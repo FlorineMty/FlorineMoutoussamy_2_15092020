@@ -1,11 +1,11 @@
 @font-face {
 	font-family: Raleway-Medium;
-	src: url("fonts/Raleway-Medium.ttf");
+	src: url("../fonts/Raleway-Medium.ttf");
   }
   
   @font-face {
 	font-family: Raleway-Thin;
-	src: url("fonts/Raleway-Thin.ttf");
+	src: url("../fonts/Raleway-Thin.ttf");
   }
 
 body
