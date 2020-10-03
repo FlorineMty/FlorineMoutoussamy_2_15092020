@@ -32,18 +32,18 @@ header
 	padding-left: 20px;
 	width: 60%;
 }
-#barremenu nav
+#barreMenu nav
 {
 	display: flex;
 }
-#barremenu a
+#barreMenu a
 {
     font-size: 15px;
     color: black;
     text-decoration: none;
     padding: 25px 30px 0 30px;
 }
-#barremenu a:hover 
+#barreMenu a:hover 
 {  
 	color: #0065FC;
 	border-top: 3px solid #0065FC;
@@ -134,7 +134,7 @@ h2
 	color: black;
 }
 
-#boutonrecherche
+#boutonRecherche
 {
 	font-family: 'Raleway-Medium';
 	background-color: #0065FC;
@@ -256,7 +256,7 @@ input[type='radio']
 	width: 30%;
 }
 
-#onglethebergement1
+#ongletHebergement1
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -277,7 +277,7 @@ input[type='radio']
 	font-family: 'Raleway-Thin';
 }
 
-.imagebloc1
+.imageBloc1
 {
 		width: 258px;
 		height: 218px;
@@ -286,7 +286,7 @@ input[type='radio']
 		border-radius: 20px;
 		box-shadow: 0px 10px 10px #C0C0C0;
 }
-.imagebloc1 > img
+.imageBloc1 > img
 {
 	width: 250px;
 	height: 130px;
@@ -310,7 +310,7 @@ input[type='radio']
 	color: #F2F2F2;
 }
 
-.imagebloc1 > .legendebloc1
+.imageBloc1 > .legendeBloc1
 {
   position: absolute;
   width: 250px;
@@ -358,7 +358,7 @@ input[type='radio']
 	flex-direction: row;
 	justify-content: space-between;
 }
-.imagebloc2
+.imageBloc2
 {
 	display: flex;
 	flex-direction: row;
@@ -369,7 +369,7 @@ input[type='radio']
 	justify-content: center;
 }
 
-.imagebloc2 > img
+.imageBloc2 > img
 {
 	width: 130px;
 	height: 120px;
@@ -386,7 +386,7 @@ input[type='radio']
 	height: 128px;
 	width: 178px;
 }
-.legendeDroite > .legendebloc2
+.legendeDroite > .legendeBloc2
 {
 	width: auto;
 	height: auto;
@@ -422,32 +422,32 @@ input[type='radio']
 	
 	text-decoration: none;
 }
-.imageactivite1
+.imageActivite1
 {
 	box-shadow: 0px 10px 10px #C0C0C0;
 	border-radius: 20px;
 	margin: 0 0 30px 0;
 }
-.imageactivite2
+.imageActivite2
 {
 	box-shadow: 0px 10px 10px #C0C0C0;
 	border-radius: 20px;
 	margin: 0 0 30px 0;
 }
-.imageactivite3
+.imageActivite3
 {
 	box-shadow: 0px 10px 10px #C0C0C0;
 	border-radius: 20px;
 	margin: 0 0 30px 0;
 }
-.imageactivite4
+.imageActivite4
 {
 	box-shadow: 0px 10px 10px #C0C0C0;
 	border-radius: 20px;
 	margin: 0 0 30px 0;
 }
 
-.imageactivite1 img
+.imageActivite1 img
 {
 	border-radius: 20px 20px 0 0;	
 	width: 300px;
@@ -455,21 +455,21 @@ input[type='radio']
 	object-fit: cover;
 }
 
-.imageactivite2 img
+.imageActivite2 img
 {
 	border-radius: 20px 20px 0 0;
 	width: 300px;
 	height: 250px;
 	object-fit: cover;
 }
-.imageactivite3 img
+.imageActivite3 img
 {
 	border-radius: 20px 20px 0 0;
 	width: 300px;
 	height: 150px;
 	object-fit: cover;
 }
-.imageactivite4 img
+.imageActivite4 img
 {
 	border-radius: 20px 20px 0 0;
 	width: 300px;
@@ -477,7 +477,7 @@ input[type='radio']
 	object-fit: cover;
 }
 
-.legendeactivite
+.legendeActivite
 {
   width: 300px;
   height: 40px;
@@ -524,7 +524,7 @@ p span
 		width: auto;
 		position: initial;
 	}
-	#barremenu a
+	#barreMenu a
 	{
 		font-size: 15px;
 		color: black;
@@ -583,18 +583,18 @@ p span
 		width: auto;
 		background-color: white;
 	}
-	.imagebloc2
+	.imageBloc2
 	{
 		width: 350px;
 		height: 208px;
 		flex-wrap: nowrap;
 	}
-	.imagebloc2 > img
+	.imageBloc2 > img
 	{
 		object-fit: cover;
 		height: 200px;
 	}
-	.imagebloc2 > .legendeDroite
+	.imageBloc2 > .legendeDroite
 	{
 		height: 208px;
 		width: 100%;
@@ -633,7 +633,7 @@ p span
 		text-align: center;
 		width: auto;
 	}
-	#barremenu
+	#barreMenu
 	{
 		grid-area: menu;
 		padding: 0;
@@ -642,16 +642,16 @@ p span
 		width: 100%;
 		justify-content: none;
 	}
-	#barremenu a
+	#barreMenu a
 	{
 		padding: 0;
 	}
-	#barremenu nav
+	#barreMenu nav
 	{
 		padding: 0;
 		text-align: center;
 	}
-	#barremenu a:hover 
+	#barreMenu a:hover 
 	{  
 		border-top: none;
 		border-bottom: 3px solid #0065FC;
@@ -694,7 +694,7 @@ p span
 		flex-direction: row;
 		justify-content: center;
 	}
-	#boutonrecherche
+	#boutonRecherche
 	{
 		display: none;
 	}
@@ -732,18 +732,18 @@ p span
 	{
 		background-color: white;
 	}
-	.imagebloc2
+	.imageBloc2
 	{
 		width: 300px;
 		height: 158px;
 		flex-wrap: nowrap;
 	}
-	.imagebloc2 > img
+	.imageBloc2 > img
 	{
 		object-fit: cover;
 		height: 150px;
 	}
-	.imagebloc2 > .legendeDroite
+	.imageBloc2 > .legendeDroite
 	{
 		height: 158px;
 	}
@@ -751,28 +751,28 @@ p span
 	{
 		justify-content: center;
 	}
-	.imageactivite1 > img
+	.imageActivite1 > img
 	{
 		border-radius: 20px 20px 0 0;	
 		width: 300px;
 		height: 150px;
 		object-fit: cover;
 	}
-	.imageactivite2 img
+	.imageActivite2 img
 	{
 		border-radius: 20px 20px 0 0;	
 		width: 300px;
 		height: 150px;
 		object-fit: cover;
 	}
-	.imageactivite3 img
+	.imageActivite3 img
 	{
 		border-radius: 20px 20px 0 0;	
 		width: 300px;
 		height: 150px;
 		object-fit: cover;
 	}
-	.imageactivite4 img
+	.imageActivite4 img
 	{
 		border-radius: 20px 20px 0 0;	
 		width: 300px;
