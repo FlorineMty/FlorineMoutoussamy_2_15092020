@@ -30,11 +30,7 @@ header
 {
 	padding-top: 25px;
 	padding-left: 20px;
-}
-#barremenu
-{
-	display: flex;
-	padding-right: 10px;
+	width: 60%;
 }
 #barremenu nav
 {
@@ -45,19 +41,21 @@ header
     font-size: 15px;
     color: black;
     text-decoration: none;
-    padding: 25px 10px 0 10px;
+    padding: 25px 30px 0 30px;
 }
-
 #barremenu a:hover 
 {  
 	color: #0065FC;
 	border-top: 3px solid #0065FC;
 	padding-top: 25px;
 }
-#barremenu > .inscription
+header > .inscription
 {  
 	color:#0065FC;
 	font-weight: bold;
+	text-decoration: none;
+	width: 10%;
+	padding-top: 25px;
 }
 main
 {
@@ -76,6 +74,16 @@ h1
 	font-family:'Raleway-Thin', sans-serif;
 	font-weight: lighter;
 	padding-left: 10px;
+}
+.menuHebergements
+{
+	font-family:'Raleway-Thin', sans-serif;
+	font-weight: lighter;
+}
+.menuActivites
+{
+	font-family:'Raleway-Thin', sans-serif;
+	font-weight: lighter;
 }
 #intro > .texteSite
 {
@@ -513,8 +521,19 @@ p span
 	}
 	header
 	{
-		width: 100%;
+		width: auto;
 		position: initial;
+	}
+	#barremenu a
+	{
+		font-size: 15px;
+		color: black;
+		text-decoration: none;
+		padding: 25px 15px 0 15px;
+	}
+	.inscription
+	{
+		margin-left: 30px;
 	}
 	main
 	{
@@ -524,6 +543,7 @@ p span
 	#logo
 	{
 		padding-left: 20px;
+		width: 50%;
 	}
 	#intro
 	{
@@ -600,9 +620,9 @@ p span
 		width: 100%;
 		display: grid;
 		align-items: center;
-		height: 60px;
+		height: 100px;
 		grid-template-columns: 50% 50%;
-		grid-template-rows: 30px;
+		grid-template-rows: 60px;
 		grid-template-areas: "logo inscription"
 							"menu menu";	
 	}
@@ -611,28 +631,55 @@ p span
 		padding: 0;
 		grid-area: logo;
 		text-align: center;
+		width: auto;
 	}
 	#barremenu
 	{
 		grid-area: menu;
 		padding: 0;
 		display: grid;
+		text-align: center;
+		width: 100%;
+		justify-content: none;
+	}
+	#barremenu a
+	{
+		padding: 0;
+	}
+	#barremenu nav
+	{
+		padding: 0;
+		text-align: center;
 	}
 	#barremenu a:hover 
 	{  
 		border-top: none;
 		border-bottom: 3px solid #0065FC;
 		padding-bottom: 15px;
+		padding-top: 0;
 	}
-	.inscription
+	header > .inscription
 	{
 		order: -1;
 		text-align: center;
 		grid-area: inscription;
-		padding: 0;
+		padding-top: 0;
 		text-decoration: none;
 		color: #0065FC;
+		width: auto;
+		margin: 0;
+
 	}
+	.menuActivites
+	{
+		text-align: center;
+		width: 50%;
+	}
+	.menuHebergements
+	{
+		text-align: center;
+		width: 50%;
+	}	
 	#intro
 	{
 		margin-top: 40px;
