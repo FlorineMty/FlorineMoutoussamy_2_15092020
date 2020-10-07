@@ -24,7 +24,7 @@ header
     position: fixed;
     width: 100%;
 	top: 0px;
-	z-index: 50;
+	z-index: 2;
 }
 #logo
 {
@@ -183,7 +183,6 @@ h2
 	background-color: #DEEBFF;
 	width: 40px;
 	height: 40px;
-	display: block;
 	text-align: center;
 	border-radius: 90%;
 	line-height: 40px;
