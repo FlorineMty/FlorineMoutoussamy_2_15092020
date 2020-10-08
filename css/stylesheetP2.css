@@ -338,7 +338,6 @@ input[type='radio']
 	width: 100%;
 	margin:0 auto;
 }
-
 .hebergement2
 {
 	text-decoration: none;
@@ -366,7 +365,6 @@ input[type='radio']
 	width: 316px;
 	justify-content: center;
 }
-
 .imageBloc2 > img
 {
 	width: 130px;
@@ -375,7 +373,6 @@ input[type='radio']
 	border: 4px white solid;
 	object-fit: cover;
 }
-
 .legendeDroite
 {
 	border-radius: 0 20px 20px 0;
@@ -391,7 +388,6 @@ input[type='radio']
 	line-height: 17px;
 	text-decoration: none;
 }
-
 #activites
 {
 	width: auto;
@@ -412,12 +408,9 @@ input[type='radio']
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
-
 .ongletActivite
-{
-	
+{	
 	text-decoration: none;
 }
 .imageActivite1
@@ -510,7 +503,7 @@ p span
 }
 
 /***** RESPONSIVE ***** */
-@media screen and (max-device-width: 1024px)
+@media only screen and (max-device-width: 1024px)
 {
 	body
 	{	
@@ -610,7 +603,7 @@ p span
 		margin: 0;
 	}
 }
-@media screen and (max-device-width: 759px)
+@media only screen and (max-device-width: 759px)
 {
 	header
 	{
