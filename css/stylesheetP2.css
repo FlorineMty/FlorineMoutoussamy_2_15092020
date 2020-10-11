@@ -503,7 +503,7 @@ p span
 }
 
 /***** RESPONSIVE ***** */
-@media only screen and (max-device-width: 1024px)
+@media only screen and (max-width: 1024px)
 {
 	body
 	{	
@@ -603,7 +603,7 @@ p span
 		margin: 0;
 	}
 }
-@media only screen and (max-device-width: 759px)
+@media only screen and (max-width: 759px)
 {
 	header
 	{
@@ -631,7 +631,6 @@ p span
 		display: grid;
 		text-align: center;
 		width: 100%;
-		justify-content: none;
 	}
 	#barreMenu a
 	{
