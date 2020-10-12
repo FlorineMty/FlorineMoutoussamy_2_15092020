@@ -576,7 +576,7 @@ p span
 	}
 	.imageBloc2
 	{
-		width: 350px;
+		width: 500px;
 		height: 208px;
 		flex-wrap: nowrap;
 	}
@@ -584,11 +584,24 @@ p span
 	{
 		object-fit: cover;
 		height: 200px;
+		width: 200px;
 	}
 	.imageBloc2 > .legendeDroite
 	{
 		height: 208px;
 		width: 100%;
+	}
+	.legendeBloc2 > h3
+	{
+		padding: 20px 0 0 10px;
+	}
+	.legendeBloc2 > p
+	{
+		padding: 20px 0 0 10px;
+	}
+	.legendeBloc2 > .etoiles
+	{
+		padding: 20px 0 0 10px;
 	}
 	.titreActivites
 	{
@@ -681,7 +694,6 @@ p span
 	#recherche form
 	{
 		display: flex;
-		flex-direction: row;
 		justify-content: center;
 	}
 	#boutonRecherche
@@ -708,9 +720,6 @@ p span
 	}
 	.blocFiltres
 	{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
 		margin-top: 10px;
 	}
 	#hebergements
@@ -732,10 +741,23 @@ p span
 	{
 		object-fit: cover;
 		height: 150px;
+		width: 140px;
 	}
 	.imageBloc2 > .legendeDroite
 	{
 		height: 158px;
+	}
+	.legendeBloc2 > h3
+	{
+		padding: 0;
+	}
+	.legendeBloc2 > p
+	{
+		padding: 0;
+	}
+	.legendeBloc2 > .etoiles
+	{
+		padding: 0;
 	}
 	#blocActivites
 	{
