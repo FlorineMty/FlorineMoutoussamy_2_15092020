@@ -25,7 +25,7 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2 class="texteSite">En plein centre ville ou en pleine nature</h2><br>
     </article>
-    <article id="recherche">
+    <div id="recherche">
             <form method="POST" action="traitement.php">
                 <div class="rechercheVille">
                     <div class="iconePosition"><i class="fas fa-map-marker-alt"></i></div>
@@ -34,14 +34,9 @@
                 </div>
                 <div class="iconeRecherche"><i class="fas fa-search"></i></div>
             </form>
-    </article>
-    <article id="filtres">
-        <div class="ongletFiltre">
-            <input type="radio" name="filtre" id="Radio"/>
-        	<label class="elementsFiltre" for="Radio1"> 
-                <span class="texteOnglet">Filtres</span>
-            </label>
-        </div>
+    </div>
+    <section id="filtres">
+        <h2 class="texteFiltre">Filtres</h2>
         <div class="blocFiltres">
             <div class="onglet">
                 <input type="radio" name="filtre" id="Radio1"/>
@@ -72,12 +67,12 @@
                 </label>
             </div>
         </div>
-    </article>
+    </section>
     <div id="information">
         <div class="iconeInformation"><i class="fas fa-info"></i></div>
         <h2 class="texteSite">Plus de 500 logements sont disponibles dans cette ville</h2>
     </div>
-    <article id="hebergements">
+    <div id="hebergements">
         <section class="bloc1">
             <h2 class="titreBloc1">Hébergements à Marseille</h2>
             <div id="ongletHebergement1">
@@ -271,7 +266,7 @@
                 </a>
             </div>
         </section>
-    </article>
+    </div>
     <article id="activites">
         <h2 class="titreActivites">Activités à Marseille</h2>
         <div id="blocActivites"> 

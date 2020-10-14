@@ -193,6 +193,14 @@ label > .texteOnglet
 {
 	padding: 5px 20px 5px 5px;
 }
+.texteFiltre
+{
+	padding:5px 20px 5px 0;
+	align-items: center;
+	margin: 0;
+	height: 20px;
+	display: flex;
+}
 
 input:hover ~ label
 {
@@ -267,6 +275,7 @@ input[type='radio']
 .hebergement1
 {
 	margin-bottom: 100px;
+	text-decoration: none;
 }
 
 .texteHebergement
@@ -277,12 +286,12 @@ input[type='radio']
 
 .imageBloc1
 {
-		width: 258px;
-		height: 218px;
-		margin: 0 auto;
-		background-color: white;
-		border-radius: 20px;
-		box-shadow: 0px 10px 10px #C0C0C0;
+	width: 258px;
+	height: 218px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0px 10px 10px #C0C0C0;
 }
 .imageBloc1 > img
 {
@@ -310,9 +319,6 @@ input[type='radio']
 
 .imageBloc1 > .legendeBloc1
 {
-  position: absolute;
-  width: 250px;
-  height: 80px;
   background-color:white;
   color: black;
   text-align: left;
@@ -650,6 +656,13 @@ p span
 	{
 		padding: 0;
 		text-align: center;
+	}
+	#barreMenu a
+	{  
+		border-top: none;
+		border-bottom: 3px solid #F2F2F2;
+		padding-bottom: 15px;
+		padding-top: 0;
 	}
 	#barreMenu a:hover 
 	{  
